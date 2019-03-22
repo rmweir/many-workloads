@@ -8,6 +8,6 @@ for ((i=1;i<=$ITERATIONS;i++)); do
     let sum=($i + $START)
     let prior=($sum - 1)
     echo $prior
-    python replace.py \"abcdefghr$prior\" \"abcdefghr$i\"
+    python replace.py \"abcdefghr$prior\" \"abcdefghr$sum\"
     paste curl command on this line
 done
