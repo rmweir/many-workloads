@@ -7,7 +7,7 @@ curl: v7.54
 
 ## How to Use ##
 1. Open chrome inspector and select networking tab
-2. Deploy a workload in rancher UI with name `abcdefghr0`
+2. Deploy a workload with one environment variable (any arbitrary name and value) in rancher UI with name `abcdefghr0`
 3. Right click the request in the inpsect and select copy as curl
 4. Paste into load_vars.sh on line with paste comment, copy portion between --data-binary and --compressed (exclusive), save
 5. Paste into input file, delete outter-most single quotes, save
